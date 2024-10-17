@@ -1,0 +1,153 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body header,
+section {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Header */
+header {
+    padding: 24px 0;
+    background-color: rgb(14, 68, 4);
+    color: rgb(196, 221, 196);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+}
+
+header nav li a {
+    color: rgb(196, 221, 196);
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    color: rgb(157, 255, 127);
+}
+
+/* Section info */
+section {
+    background-color: rgb(196, 221, 196);
+    padding: 46px;
+    max-width: 100%;
+}
+
+section h2,
+section h4 {
+    color: rgb(14, 68, 4);
+}
+
+section h4 {
+    color: rgb(37, 129, 9);
+}
+
+#info_id {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#info_id img {
+    border-radius: 10px;
+    height: 180px;
+    margin: 8px;
+}
+
+/* Download Button */
+
+#botao_id,
+.call_id,
+#contact {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    width: fit-content;
+}
+
+#botao_id {
+    background-color: rgb(14, 68, 4); 
+    color: rgb(196, 221, 196); 
+    padding: 12px 24px;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+#botao_id h2 {
+    color: rgb(196, 221, 196);
+}
+
+#botao_id:hover {
+    background-color: rgb(37, 129, 9);
+    color: rgb(255, 255, 255); 
+}
+
+/* section fale conosco */
+
+#button2 {
+    text-decoration: none;
+}
+
+
+form input,
+form textarea,
+button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 12px;
+}
+
+#call_id,
+#Contato_links {
+    display: flex;
+}
+
+/* section contatos */
+
+.Contato_links img {
+    height: 24px;
+    border: 2px;
+}
+
+#contact h2 {
+    color: rgb(14, 68, 4);
+    padding: 8px;
+}
+
+#contact .Contato_links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+#contact .Contato_links li a {
+    text-decoration: none;
+}
+
+form textarea {
+    resize: none;
+}
